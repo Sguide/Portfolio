@@ -1,0 +1,17 @@
+body{
+    background-color: bisque;
+}
+#myForm, #myLogin{
+    background-color: chocolate;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+legend{
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 2px;
+}
+fieldset{
+    border-radius: 10px;
+}

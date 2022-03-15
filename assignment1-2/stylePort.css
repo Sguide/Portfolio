@@ -1,0 +1,21 @@
+body{
+    background-color: darkgray;
+}
+img{
+    width: 20%;
+    border-radius: 50%;
+}
+h1{
+    background-color: gold;
+    text-align: center;
+}
+h2{
+    background-color: darkred;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}

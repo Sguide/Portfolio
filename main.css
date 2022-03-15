@@ -1,0 +1,334 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5px;
+}
+.grid-containerProject{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5px;
+}
+.back{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5px;
+}
+#backIndex{
+    grid-column: 1 / span 2;
+    background-color: #4b371c;
+    color: bisque;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+}
+#header{
+    grid-column: 1 / span 1;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+}
+#onlinegame{
+    grid-column: 1 / span 1;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+}
+#introduce{
+    grid-column: 2 / span 1;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+}
+#onlinegameVid{
+    grid-column: 2 / span 1;
+    text-align: center;
+    margin: 5px;
+}
+#skill{
+    grid-column: 1 / span 1;
+    text-align: center;
+    margin: 5px;
+}
+#premiere{
+    grid-column: 1 / span 1;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+}
+#softskill{
+    grid-column: 2 / span 1;
+    text-align: left;
+    font-size: 30px;
+    margin: 5px;
+}
+#premiereVid{
+    grid-column: 2 / span 1;
+    text-align: center;
+    margin: 5px;
+}
+#assignment{
+    grid-column: 1 / span 2;
+    text-align: left;
+    font-size: 30px;
+    margin: 5px;
+}
+#after{
+    grid-column: 1 / span 1;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+}
+#port{
+    grid-column: 1 / span 2;
+    text-align: left;
+    font-size: 30px;
+    margin: 5px;
+}
+#afterVid{
+    grid-column: 2 / span 1;
+    text-align: center;
+    margin: 5px;
+}
+#animation{
+    grid-column: 1 / span 1;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+}
+#animationVid{
+    grid-column: 2 / span 1;
+    text-align: center;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 768px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 5px;
+    }
+    .grid-containerProject{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 5px;
+    }
+    .back{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 5px;
+    }
+    #backIndex{
+        grid-column: 1 / span 2;
+        background-color: #4b371c;
+        color: bisque;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 30px;
+        margin: 5px;
+    }
+    #header{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 28px;
+        margin: 5px;
+    }
+    #onlinegame{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 28px;
+        margin: 5px;
+    }
+    #introduce{
+        grid-column: 2 / span 1;
+        text-align: center;
+        font-size: 28px;
+        margin: 5px;
+    }
+    #onlinegameVid{
+        grid-column: 2 / span 1;
+        text-align: center;
+        margin: 5px;
+    }
+    #skill{
+        grid-column: 1 / span 1;
+        text-align: center;
+        margin: 5px;
+    }
+    #premiere{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 28px;
+        margin: 5px;
+    }
+    #softskill{
+        grid-column: 2 / span 1;
+        text-align: left;
+        font-size: 28px;
+        margin: 5px;
+    }
+    #premiereVid{
+        grid-column: 2 / span 1;
+        text-align: center;
+        margin: 5px;
+    }
+    #assignment{
+        grid-column: 1 / span 2;
+        text-align: left;
+        font-size: 28px;
+        margin: 5px;
+    }
+    #after{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 28px;
+        margin: 5px;
+    }
+    #port{
+        grid-column: 1 / span 2;
+        text-align: left;
+        font-size: 28px;
+        margin: 5px;
+    }
+    #afterVid{
+        grid-column: 2 / span 1;
+        text-align: center;
+        margin: 5px;
+    }
+    #animation{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 28px;
+        margin: 5px;
+    }
+    #animationVid{
+        grid-column: 2 / span 1;
+        text-align: center;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 2px;
+    }
+    .grid-containerProject{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 2px;
+    }
+    .back{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 2px;
+    }
+    #backIndex{
+        grid-column: 1 / span 1;
+        background-color: #4b371c;
+        color: bisque;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 26px;
+        margin: 5px;
+    }
+    #header{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 26px;
+        margin: 5px;
+    }
+    #onlinegame{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 26px;
+        margin: 5px;    
+    }
+    #introduce{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 26px;
+        margin: 5px;
+    }
+    #onlinegameVid{
+        grid-column: 1 / span 1;
+        text-align: center;
+        margin: 5px;
+    }
+    #skill{
+        grid-column: 1 / span 1;
+        text-align: center;
+        margin: 5px;
+    }
+    #premiere{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 26px;
+        margin: 5px;
+    }
+    #softskill{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 26px;
+        margin: 5px;
+    }
+    #premiereVid{
+        grid-column: 1 / span 1;
+        text-align: center;
+        margin: 5px;
+    }
+    #assignment{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 26px;
+        margin: 5px;
+    }
+    #after{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 26px;
+        margin: 5px;
+    }
+    #port{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 26px;
+        margin: 5px;
+    }
+    #afterVid{
+        grid-column: 1 / span 1;
+        text-align: center;
+        margin: 5px;
+    }
+    #animation{
+        grid-column: 1 / span 1;
+        text-align: center;
+        font-size: 26px;
+        margin: 5px;
+    }
+    #animationVid{
+        grid-column: 1 / span 1;
+        text-align: center;
+        margin: 5px;
+    }
+}
+
+body{
+    background-color: bisque;
+}
+img{
+    width: 40%;
+    border-radius: 50%;
+    border: 5px solid #4b371c;
+}
+video{
+    width: 100%;
+}
+header{
+    color: bisque;
+    background-color: #4b371c;
+    border-radius: 5px;
+    font-size: 38px;
+    text-align: center;
+}

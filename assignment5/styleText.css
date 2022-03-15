@@ -1,0 +1,12 @@
+body{
+    background-color: tomato;
+}
+#container{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+#text1{
+    text-align: center;
+    font-size: 18px;
+}
